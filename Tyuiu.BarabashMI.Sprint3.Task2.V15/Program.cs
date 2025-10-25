@@ -28,8 +28,8 @@ class Program
         Console.WriteLine("****************************************************************************");
         Console.WriteLine("* РЕЗУЛЬТАТ:                                                               *");
         Console.WriteLine("****************************************************************************");
-        //Console.WriteLine(ds.GetSumSeries(0.5,1,20));
-        Console.WriteLine(a);
+        Console.WriteLine(ds.GetSumSeries(0.5,1,20));
+        
 
 
 

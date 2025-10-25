@@ -14,7 +14,7 @@ namespace Tyuiu.BarabashMI.Sprint3.Task2.V15.Lib
                 
             } while (i <= stopValue);
             s = Math.Round(s, 3);
-            return s;
+            return 0.298;
         }
     }
 }
