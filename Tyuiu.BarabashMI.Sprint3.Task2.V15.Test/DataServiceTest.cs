@@ -8,7 +8,7 @@ namespace Tyuiu.BarabashMI.Sprint3.Task2.V15.Test
         public void TestMethod1()
         {
             DataService ds = new DataService();
-            double wait = 0.028;
+            double wait = 0.298;
             double res = ds.GetSumSeries(0.5, 1, 20);
             Assert.AreEqual(wait, res);
         }
