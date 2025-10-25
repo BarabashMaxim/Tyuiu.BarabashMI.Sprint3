@@ -9,12 +9,12 @@ namespace Tyuiu.BarabashMI.Sprint3.Task2.V15.Lib
             int i = startValue;
             do
             {
-                s += (Math.Pow(value, i) + (1 / 2)) * Math.Cos(i);              
+                s += (Math.Pow(value, i) + 0.5) * Math.Cos(i);              
                 i++;
                 
             } while (i <= stopValue);
             s = Math.Round(s, 3);
-            return 0.298;
+            return s;
         }
     }
 }
