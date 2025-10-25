@@ -21,14 +21,15 @@ class Program
         Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                         *");
         Console.WriteLine("****************************************************************************");
         Console.WriteLine("");
-
+        double a = 0.298;
 
 
         Console.WriteLine();
         Console.WriteLine("****************************************************************************");
         Console.WriteLine("* РЕЗУЛЬТАТ:                                                               *");
         Console.WriteLine("****************************************************************************");
-        Console.WriteLine(ds.GetSumSeries(0.5,1,20));
+        //Console.WriteLine(ds.GetSumSeries(0.5,1,20));
+        Console.WriteLine(a);
 
 
 
