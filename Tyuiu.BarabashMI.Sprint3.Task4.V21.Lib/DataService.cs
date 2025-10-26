@@ -6,7 +6,7 @@ namespace Tyuiu.BarabashMI.Sprint3.Task4.V21.Lib
         public double Calculate(int startValue, int stopValue)
         {
             double res = 1;
-            for (startValue = -5;  startValue < stopValue; startValue++)
+            for (startValue = -5;  startValue <= stopValue; startValue++)
             {
                 if (startValue == 0)
                 {

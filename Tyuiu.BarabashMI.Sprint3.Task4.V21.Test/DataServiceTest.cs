@@ -8,7 +8,7 @@ namespace Tyuiu.BarabashMI.Sprint3.Task4.V21.Test
         public void TestMethod1()
         {
             DataService ds = new DataService();
-            double wait = -0.621;
+            double wait = 0.586;
             double res = ds.Calculate(-5, 5);
             Assert.AreEqual(wait, res);
         }
